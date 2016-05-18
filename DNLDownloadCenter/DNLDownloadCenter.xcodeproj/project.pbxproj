@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800F80841CEC867E0049669D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80831CEC867E0049669D /* main.m */; };
+		800F80871CEC867E0049669D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80861CEC867E0049669D /* AppDelegate.m */; };
+		800F808A1CEC867E0049669D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80891CEC867E0049669D /* ViewController.m */; };
+		800F808D1CEC867E0049669D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800F808B1CEC867E0049669D /* Main.storyboard */; };
+		800F808F1CEC867E0049669D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800F808E1CEC867E0049669D /* Assets.xcassets */; };
+		800F80921CEC867E0049669D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800F80901CEC867E0049669D /* LaunchScreen.storyboard */; };
+		800F809D1CEC867E0049669D /* DNLDownloadCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F809C1CEC867E0049669D /* DNLDownloadCenterTests.m */; };
+		800F80A81CEC867E0049669D /* DNLDownloadCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80A71CEC867E0049669D /* DNLDownloadCenterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800F80991CEC867E0049669D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800F80771CEC867E0049669D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800F807E1CEC867E0049669D;
+			remoteInfo = DNLDownloadCenter;
+		};
+		800F80A41CEC867E0049669D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800F80771CEC867E0049669D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800F807E1CEC867E0049669D;
+			remoteInfo = DNLDownloadCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800F807F1CEC867E0049669D /* DNLDownloadCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNLDownloadCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800F80831CEC867E0049669D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		800F80851CEC867E0049669D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		800F80861CEC867E0049669D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		800F80881CEC867E0049669D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		800F80891CEC867E0049669D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		800F808C1CEC867E0049669D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800F808E1CEC867E0049669D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800F80911CEC867E0049669D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800F80931CEC867E0049669D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800F80981CEC867E0049669D /* DNLDownloadCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNLDownloadCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800F809C1CEC867E0049669D /* DNLDownloadCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNLDownloadCenterTests.m; sourceTree = "<group>"; };
+		800F809E1CEC867E0049669D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800F80A31CEC867E0049669D /* DNLDownloadCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNLDownloadCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800F80A71CEC867E0049669D /* DNLDownloadCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNLDownloadCenterUITests.m; sourceTree = "<group>"; };
+		800F80A91CEC867E0049669D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800F807C1CEC867E0049669D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F80951CEC867E0049669D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F80A01CEC867E0049669D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800F80761CEC867E0049669D = {
+			isa = PBXGroup;
+			children = (
+				800F80811CEC867E0049669D /* DNLDownloadCenter */,
+				800F809B1CEC867E0049669D /* DNLDownloadCenterTests */,
+				800F80A61CEC867E0049669D /* DNLDownloadCenterUITests */,
+				800F80801CEC867E0049669D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800F80801CEC867E0049669D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800F807F1CEC867E0049669D /* DNLDownloadCenter.app */,
+				800F80981CEC867E0049669D /* DNLDownloadCenterTests.xctest */,
+				800F80A31CEC867E0049669D /* DNLDownloadCenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800F80811CEC867E0049669D /* DNLDownloadCenter */ = {
+			isa = PBXGroup;
+			children = (
+				800F80851CEC867E0049669D /* AppDelegate.h */,
+				800F80861CEC867E0049669D /* AppDelegate.m */,
+				800F80881CEC867E0049669D /* ViewController.h */,
+				800F80891CEC867E0049669D /* ViewController.m */,
+				800F808B1CEC867E0049669D /* Main.storyboard */,
+				800F808E1CEC867E0049669D /* Assets.xcassets */,
+				800F80901CEC867E0049669D /* LaunchScreen.storyboard */,
+				800F80931CEC867E0049669D /* Info.plist */,
+				800F80821CEC867E0049669D /* Supporting Files */,
+			);
+			path = DNLDownloadCenter;
+			sourceTree = "<group>";
+		};
+		800F80821CEC867E0049669D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				800F80831CEC867E0049669D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		800F809B1CEC867E0049669D /* DNLDownloadCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				800F809C1CEC867E0049669D /* DNLDownloadCenterTests.m */,
+				800F809E1CEC867E0049669D /* Info.plist */,
+			);
+			path = DNLDownloadCenterTests;
+			sourceTree = "<group>";
+		};
+		800F80A61CEC867E0049669D /* DNLDownloadCenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800F80A71CEC867E0049669D /* DNLDownloadCenterUITests.m */,
+				800F80A91CEC867E0049669D /* Info.plist */,
+			);
+			path = DNLDownloadCenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800F807E1CEC867E0049669D /* DNLDownloadCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800F80AC1CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenter" */;
+			buildPhases = (
+				800F807B1CEC867E0049669D /* Sources */,
+				800F807C1CEC867E0049669D /* Frameworks */,
+				800F807D1CEC867E0049669D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNLDownloadCenter;
+			productName = DNLDownloadCenter;
+			productReference = 800F807F1CEC867E0049669D /* DNLDownloadCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800F80971CEC867E0049669D /* DNLDownloadCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800F80AF1CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenterTests" */;
+			buildPhases = (
+				800F80941CEC867E0049669D /* Sources */,
+				800F80951CEC867E0049669D /* Frameworks */,
+				800F80961CEC867E0049669D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800F809A1CEC867E0049669D /* PBXTargetDependency */,
+			);
+			name = DNLDownloadCenterTests;
+			productName = DNLDownloadCenterTests;
+			productReference = 800F80981CEC867E0049669D /* DNLDownloadCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800F80A21CEC867E0049669D /* DNLDownloadCenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800F80B21CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenterUITests" */;
+			buildPhases = (
+				800F809F1CEC867E0049669D /* Sources */,
+				800F80A01CEC867E0049669D /* Frameworks */,
+				800F80A11CEC867E0049669D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800F80A51CEC867E0049669D /* PBXTargetDependency */,
+			);
+			name = DNLDownloadCenterUITests;
+			productName = DNLDownloadCenterUITests;
+			productReference = 800F80A31CEC867E0049669D /* DNLDownloadCenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800F80771CEC867E0049669D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = " mshen";
+				TargetAttributes = {
+					800F807E1CEC867E0049669D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					800F80971CEC867E0049669D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 800F807E1CEC867E0049669D;
+					};
+					800F80A21CEC867E0049669D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 800F807E1CEC867E0049669D;
+					};
+				};
+			};
+			buildConfigurationList = 800F807A1CEC867E0049669D /* Build configuration list for PBXProject "DNLDownloadCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800F80761CEC867E0049669D;
+			productRefGroup = 800F80801CEC867E0049669D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800F807E1CEC867E0049669D /* DNLDownloadCenter */,
+				800F80971CEC867E0049669D /* DNLDownloadCenterTests */,
+				800F80A21CEC867E0049669D /* DNLDownloadCenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800F807D1CEC867E0049669D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800F80921CEC867E0049669D /* LaunchScreen.storyboard in Resources */,
+				800F808F1CEC867E0049669D /* Assets.xcassets in Resources */,
+				800F808D1CEC867E0049669D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F80961CEC867E0049669D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F80A11CEC867E0049669D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800F807B1CEC867E0049669D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800F808A1CEC867E0049669D /* ViewController.m in Sources */,
+				800F80871CEC867E0049669D /* AppDelegate.m in Sources */,
+				800F80841CEC867E0049669D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F80941CEC867E0049669D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800F809D1CEC867E0049669D /* DNLDownloadCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800F809F1CEC867E0049669D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800F80A81CEC867E0049669D /* DNLDownloadCenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800F809A1CEC867E0049669D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800F807E1CEC867E0049669D /* DNLDownloadCenter */;
+			targetProxy = 800F80991CEC867E0049669D /* PBXContainerItemProxy */;
+		};
+		800F80A51CEC867E0049669D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800F807E1CEC867E0049669D /* DNLDownloadCenter */;
+			targetProxy = 800F80A41CEC867E0049669D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		800F808B1CEC867E0049669D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800F808C1CEC867E0049669D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800F80901CEC867E0049669D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800F80911CEC867E0049669D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800F80AA1CEC867E0049669D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800F80AB1CEC867E0049669D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800F80AD1CEC867E0049669D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DNLDownloadCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		800F80AE1CEC867E0049669D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DNLDownloadCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		800F80B01CEC867E0049669D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNLDownloadCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNLDownloadCenter.app/DNLDownloadCenter";
+			};
+			name = Debug;
+		};
+		800F80B11CEC867E0049669D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNLDownloadCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNLDownloadCenter.app/DNLDownloadCenter";
+			};
+			name = Release;
+		};
+		800F80B31CEC867E0049669D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNLDownloadCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNLDownloadCenter;
+			};
+			name = Debug;
+		};
+		800F80B41CEC867E0049669D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNLDownloadCenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNLDownloadCenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800F807A1CEC867E0049669D /* Build configuration list for PBXProject "DNLDownloadCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800F80AA1CEC867E0049669D /* Debug */,
+				800F80AB1CEC867E0049669D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800F80AC1CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800F80AD1CEC867E0049669D /* Debug */,
+				800F80AE1CEC867E0049669D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		800F80AF1CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800F80B01CEC867E0049669D /* Debug */,
+				800F80B11CEC867E0049669D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		800F80B21CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800F80B31CEC867E0049669D /* Debug */,
+				800F80B41CEC867E0049669D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800F80771CEC867E0049669D /* Project object */;
+}
