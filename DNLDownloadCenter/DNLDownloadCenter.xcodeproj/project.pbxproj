@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A827342FC274BEC670AC066 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC780F3E36B04B1356EE2B01 /* libPods.a */; };
 		800F80841CEC867E0049669D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80831CEC867E0049669D /* main.m */; };
 		800F80871CEC867E0049669D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80861CEC867E0049669D /* AppDelegate.m */; };
 		800F808A1CEC867E0049669D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800F80891CEC867E0049669D /* ViewController.m */; };
@@ -51,6 +52,9 @@
 		800F80A31CEC867E0049669D /* DNLDownloadCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNLDownloadCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		800F80A71CEC867E0049669D /* DNLDownloadCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNLDownloadCenterUITests.m; sourceTree = "<group>"; };
 		800F80A91CEC867E0049669D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBDE969F125AF76FAC9EDB7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DC780F3E36B04B1356EE2B01 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1070C3042455C3E7F19FC52 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A827342FC274BEC670AC066 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4819A1D7DA7030A5D751DC1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1070C3042455C3E7F19FC52 /* Pods.debug.xcconfig */,
+				CDBDE969F125AF76FAC9EDB7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		800F80761CEC867E0049669D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				800F809B1CEC867E0049669D /* DNLDownloadCenterTests */,
 				800F80A61CEC867E0049669D /* DNLDownloadCenterUITests */,
 				800F80801CEC867E0049669D /* Products */,
+				4819A1D7DA7030A5D751DC1C /* Pods */,
+				97BF7516D6BF9A10D4791135 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = DNLDownloadCenterUITests;
 			sourceTree = "<group>";
 		};
+		97BF7516D6BF9A10D4791135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC780F3E36B04B1356EE2B01 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 800F80AC1CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenter" */;
 			buildPhases = (
+				C29C644BA6B9D414D05A70B2 /* Check Pods Manifest.lock */,
 				800F807B1CEC867E0049669D /* Sources */,
 				800F807C1CEC867E0049669D /* Frameworks */,
 				800F807D1CEC867E0049669D /* Resources */,
+				68087952059B048594D991DA /* Embed Pods Frameworks */,
+				41CD23BEF6967CE5DFF885D7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41CD23BEF6967CE5DFF885D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68087952059B048594D991DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29C644BA6B9D414D05A70B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		800F807B1CEC867E0049669D /* Sources */ = {
@@ -413,8 +488,10 @@
 		};
 		800F80AD1CEC867E0049669D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1070C3042455C3E7F19FC52 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DNLDownloadCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenter;
@@ -424,8 +501,10 @@
 		};
 		800F80AE1CEC867E0049669D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBDE969F125AF76FAC9EDB7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DNLDownloadCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mshen.DNLDownloadCenter;
@@ -498,6 +577,7 @@
 				800F80AE1CEC867E0049669D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		800F80AF1CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +586,7 @@
 				800F80B11CEC867E0049669D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		800F80B21CEC867E0049669D /* Build configuration list for PBXNativeTarget "DNLDownloadCenterUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +595,7 @@
 				800F80B41CEC867E0049669D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
